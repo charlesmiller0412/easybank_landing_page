@@ -551,44 +551,51 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
+.fixed {
+  position: fixed;
 }
 
-@media (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
+.top-0 {
+  top: 0px;
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
-.grid {
-  display: grid;
+.flex {
+  display: flex;
 }
 
 .h-screen {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-screen {
   width: 100vw;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
+.justify-between {
+  justify-content: space-between;
 }
 
-.place-content-center {
-  place-content: center;
+.bg-off-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.justify-center {
-  justify-content: center;
+.bg-gray-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 8% 62% / var(--tw-bg-opacity));
+}
+
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 :root {
@@ -621,5 +628,31 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+
+@media (min-width: 375px) {
+  .xs\:hidden {
+    display: none;
+  }
+
+  .xs\:h-\[510px\] {
+    height: 510px;
+  }
+
+  .xs\:px-\[2\.2rem\] {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+  }
+
+  .xs\:py-\[2\.4rem\] {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
   }
 }
