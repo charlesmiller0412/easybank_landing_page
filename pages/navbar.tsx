@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { useState } from "react";
+
 import Image from "next/image";
 import logo from "../assets/logo.svg";
 import hamburger from "../assets/icon-hamburger.svg";
@@ -17,20 +18,22 @@ const Navbar: NextPage = () => {
                 <Image src={logo} alt="logo" />
                 {/* mobile nav button */}
                 <div
-                    className="flex align-middle md:hidden select-none"
+                    className="md:hidden select-none relative"
                     onClick={handleNavClick}
                 >
                     {hideNavMenu ? (
                         <Image
                             src={hamburger}
                             alt="hamburger"
-                            className="object-fill"
+                            height={11}
+                            width={24}
                         />
                     ) : (
                         <Image
                             src={closeBtn}
                             alt="close menu icon"
-                            className="object-fill"
+                            height={19}
+                            width={18}
                         />
                     )}
                 </div>

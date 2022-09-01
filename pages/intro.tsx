@@ -8,23 +8,23 @@ const Intro: NextPage = () => {
     return (
         <section className="intro bg-off-white w-screen h-[735px]">
             <div className="intro__images flex justify-center h-fit relative">
-                <div className="intro__bgM absolute md:hidden w-screen">
+                <div className="intro__bgM relative md:hidden w-screen h-[397px]">
                     <Image
                         src={introImageM}
                         alt="intro image"
-                        height={397}
-                        layout="responsive"
+                        layout="fill"
+                        objectFit="fill"
                     />
                 </div>
                 <div className="intro__bgD hidden md:flex">
                     <Image src={introImageD} alt="intro image" />
                 </div>
-                <div className="intro__mockups mt-[-60px]">
+                <div className="intro__mockups absolute mt-[-57px] w-[327px] h-[402px]">
                     <Image
                         src={mockups}
                         alt="design mockups"
-                        width={327}
-                        height={402}
+                        layout="fill"
+                        objectFit="cover"
                     />
                 </div>
             </div>
