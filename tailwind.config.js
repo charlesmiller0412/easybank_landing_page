@@ -6,6 +6,7 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        fontSize: { base: "1.6rem" },
         screens: {
             xs: "375px",
             ...defaultTheme.screens,
