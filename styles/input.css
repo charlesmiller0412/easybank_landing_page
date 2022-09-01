@@ -31,7 +31,8 @@ a {
         rgba(45, 49, 77, 0.9),
         rgba(255, 255, 255, 0.9)
     );
-    top: -100%;
+    opacity: 0;
+    z-index: -1;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -40,7 +41,8 @@ a {
 }
 
 .showMobileNav {
-    top: 0;
+    opacity: 1;
+    z-index: 9;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -53,7 +55,6 @@ a {
         color-scheme: dark;
     }
     body {
-        color: white;
         background: black;
     }
 }
