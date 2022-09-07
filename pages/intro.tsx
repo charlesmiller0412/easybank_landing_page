@@ -37,7 +37,7 @@ const Intro: NextPage = () => {
                     be a one-stop-shop for spending, saving, budgeting,
                     investing, and much more.
                 </p>
-                <button className="bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] rounded-full hover:brightness-[1.3] ease-linear">
+                <button className="bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] rounded-full hover:brightness-[1.2] transition-all">
                     Request Invite
                 </button>
             </div>

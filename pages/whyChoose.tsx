@@ -17,7 +17,7 @@ const WhyChoose: NextPage = () => {
                     financial hub. Control your finances like never before.
                 </p>
             </div>
-            <div className="whychoose__content lg:flex w-[32.7rem] m-auto lg:w-full lg:m-0">
+            <div className="whychoose__content lg:flex w-[32.7rem] m-auto lg:w-full lg:m-0 xl:justify-between">
                 <div>
                     <Image src={banking} alt="online banking" />
                     <span className="whychoose__content--heading block text-dark-blue text-[2rem] font-light mt-[2.4rem] mb-[1.6rem] lg:text-[2.8rem] lg:leading-[2.8rem] lg:tracking-tighter">

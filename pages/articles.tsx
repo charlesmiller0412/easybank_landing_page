@@ -13,7 +13,7 @@ const Articles: NextPage = () => {
                     Latest Articles
                 </h2>
             </div>
-            <div className="articles__content m-auto lg:w-full lg:m-0 lg:flex">
+            <div className="articles__content m-auto lg:w-full lg:m-0 lg:flex xl:justify-between">
                 <div className="articles__card flex flex-col items-center mb-[4.8rem] lg:mr-[3rem]">
                     <div className="articles__card--image overflow-hidden">
                         <Image
