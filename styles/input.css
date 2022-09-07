@@ -50,6 +50,25 @@ a {
     -o-transition: all 0.2s;
 }
 
+.intro__text button,
+.navbar button {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.intro__text button:hover,
+.navbar button:hover {
+    filter: brightness(1.3);
+    -webkit-filter: brightness(1.3);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
 @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;

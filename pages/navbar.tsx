@@ -14,12 +14,12 @@ const Navbar: NextPage = () => {
     };
     return (
         <section className="navbar">
-            <nav className="mobileNav bg-off-white px-[2.2rem] h-[8rem] flex justify-between items-center fixed top-0 w-screen z-10 md:px-[10%] md:justify-between">
+            <nav className="mobileNav bg-off-white px-[2.2rem] h-[8rem] flex justify-between items-center fixed top-0 w-screen z-10 lg:px-[10%] lg:justify-between">
                 <div className="mobileNav__logo relative flex items-center">
                     <Image src={logo} alt="logo" height={20} width={139} />
                 </div>
                 {/* links */}
-                <ul className="mobileNav__links text-black flex items-center">
+                <ul className="hidden mobileNav__links text-black lg:flex items-center">
                     <a href="#">
                         <li className="mr-[30px]">Home</li>
                     </a>
@@ -36,12 +36,12 @@ const Navbar: NextPage = () => {
                         <li>Careers</li>
                     </a>
                 </ul>
-                <button className="hidden md:flex bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] h-[5rem] rounded-full leading-normal whitespace-nowrap items-center">
+                <button className="hidden lg:flex bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] h-[5rem] rounded-full leading-normal whitespace-nowrap items-center">
                     Request Invite
                 </button>
                 {/* mobile nav button */}
                 <div
-                    className="md:hidden select-none relative"
+                    className="lg:hidden select-none relative"
                     onClick={handleNavClick}
                 >
                     {hideNavMenu ? (

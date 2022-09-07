@@ -6,8 +6,17 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        lineHeight: { normal: "2.5rem", loose: "4.7rem" },
-        fontSize: { base: "1.6rem", xl: "4.0rem" },
+        lineHeight: {
+            normal: "2.5rem",
+            loose: "4.7rem",
+            "desktop-loose": "6.4rem",
+        },
+        fontSize: {
+            base: "1.6rem",
+            xl: "4.0rem",
+            "desktop-base": "1.8rem",
+            "desktop-xl": "5.6rem",
+        },
         screens: {
             xs: "375px",
             ...defaultTheme.screens,

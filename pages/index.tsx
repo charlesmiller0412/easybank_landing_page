@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import Intro from "./intro";
 import WhyChoose from "./whyChoose";
 import Articles from "./articles";
