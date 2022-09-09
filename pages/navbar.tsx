@@ -98,19 +98,27 @@ const Navbar: NextPage = () => {
             >
                 <ul className="bg-off-white w-11/12 h-fit mt-[8.8rem] rounded text-dark-blue text-center">
                     <li className="pt-[3.2rem] pb-[2.4rem] text-base">
-                        <a href="#home">Home</a>
+                        <a href="#home" onClick={handleNavClick}>
+                            Home
+                        </a>
                     </li>
                     <li className="pb-[2.4rem] text-base">
-                        <a href="#whyChoose">About</a>
+                        <a href="#whyChoose" onClick={handleNavClick}>
+                            About
+                        </a>
                     </li>
                     <li className="pb-[2.4rem] text-base">
-                        <a href="#">Contact</a>
+                        <a href="# onClick={handleNavClick}">Contact</a>
                     </li>
                     <li className="pb-[2.4rem] text-base">
-                        <a href="#articles">Blog</a>
+                        <a href="#articles" onClick={handleNavClick}>
+                            Blog
+                        </a>
                     </li>
                     <li className="pb-[3.2rem] text-base">
-                        <a href="#">Careers</a>
+                        <a href="#" onClick={handleNavClick}>
+                            Careers
+                        </a>
                     </li>
                 </ul>
             </div>
