@@ -48,7 +48,7 @@ const Navbar: NextPage = () => {
                     </li>
                     <li className="w-fit h-full flex items-center relative">
                         <a
-                            href="#whyChoose"
+                            href="#articles"
                             className="before:w-0 before:h-[.4rem] before:bottom-0 before:absolute hover:before:w-full before:bg-gradient-to-br before:from-lime-green before:to-bright-cyan before:transition-all"
                         >
                             Blog
