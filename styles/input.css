@@ -42,7 +42,7 @@ a {
 
 .showMobileNav {
     opacity: 1;
-    z-index: 9;
+    z-index: -1;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -57,8 +57,4 @@ a {
     body {
         background: black;
     }
-}
-
-svg:hover {
-    fill: #000;
 }

@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                 <title>charlesmiller.dev | Easybank Landing Page</title>
             </Head>
 
-            <main className="w-screen h-screen bg-off-white">
+            <main className="w-full bg-off-white lg:relative lg:overflow-x-hidden">
                 <Navbar />
                 <Intro />
                 <WhyChoose />

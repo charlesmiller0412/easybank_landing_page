@@ -7,7 +7,10 @@ import confetti from "../assets/image-confetti.jpg";
 
 const Articles: NextPage = () => {
     return (
-        <section className="articles bg-off-white w-screen text-black py-[8.8rem] px-[2.4rem] lg:py-[8rem] lg:px-[16.5rem]">
+        <section
+            id="articles"
+            className="articles bg-off-white w-screen text-black py-[8.8rem] lg:px-[8.5rem] xl:px-[16.5rem] lg:py-[8rem]"
+        >
             <div className="articles__heading w-[32.7rem] m-auto lg:w-screen lg:m-0 mb-[3.1rem] lg:mb-[4rem]">
                 <h2 className="text-dark-blue font-light text-[3.2rem] leading-[3.5rem] lg:text-[4rem] lg:leading-[6.4rem] lg:tracking-[-0.07rem]">
                     Latest Articles

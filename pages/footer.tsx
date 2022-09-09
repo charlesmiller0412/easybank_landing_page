@@ -103,8 +103,8 @@ const Footer: NextPage = () => {
                     </ul>
                 </div>
             </div>
-            <div className="footer__button mt-[3.2rem] lg:m-0 lg:h-[9.5rem] lg:flex lg:flex-col lg:justify-between lg:items-end ">
-                <button className="flex justify-center bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] h-[4.4rem] rounded-full leading-normal whitespace-nowrap items-center m-auto mb-[2.4rem] hover:brightness-[1.2] transition-all lg:m-0 lg:w-[16.3rem]">
+            <div className="footer__button mt-[3.2rem] lg:m-0 lg:h-[9.5rem] lg:flex lg:flex-col lg:justify-between lg:items-end whitespace-nowrap">
+                <button className="flex justify-center bg-gradient-to-br from-lime-green to-bright-cyan px-[3.4rem] py-[.8rem] h-[4.4rem] rounded-full leading-normal items-center m-auto mb-[2.4rem] hover:brightness-[1.2] transition-all lg:m-0 lg:w-[16.3rem]">
                     Request Invite
                 </button>
                 <span className="text-gray-blue text-[1.5rem] leading-[2.6rem] tracking-tight">
