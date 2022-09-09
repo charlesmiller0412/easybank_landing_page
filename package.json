@@ -4,7 +4,6 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "tw": "TAILWIND_MODE=watch postcss -i ./styles/input.css -o ./styles/output.css --watch",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
